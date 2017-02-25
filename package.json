@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/kavanagh-rob/atlas/issues"
   },
-  "homepage": "https://github.com/kavanagh-rob/atlas#readme"
+  "homepage": "https://github.com/kavanagh-rob/atlas#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.1.0"
+  }
 }

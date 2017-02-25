@@ -1,0 +1,7 @@
+target/**
+bower_components/*
+node_modules/*
+.settings
+.classpath
+.project
+

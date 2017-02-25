@@ -27,7 +27,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>gb-webapp</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <url-pattern>/route1</url-pattern>
         <url-pattern>/cinema</url-pattern>
     </servlet-mapping>
   

@@ -7,11 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class GB_Controller {
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/route1")
 	public ModelAndView helloWorld() {
  
 		String message = "<br><div style='text-align:center;'>"
-				+ "<h3>********** Welcome</h3></div><br><br>";
+				+ "<h3>********** Route1</h3></div><br><br>";
 		return new ModelAndView("", "message", message);
 	}
 	

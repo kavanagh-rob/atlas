@@ -1,0 +1,19 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavanagh-rob/atlas.git"
+  },
+  "author": "rk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavanagh-rob/atlas/issues"
+  },
+  "homepage": "https://github.com/kavanagh-rob/atlas#readme"
+}

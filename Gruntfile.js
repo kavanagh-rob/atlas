@@ -1,13 +1,19 @@
 module.exports = function(grunt) {
 	
-	var projectDependencies = ['angular/angular.min.js','jquery/dist/jquery.min.js'];
+	var projectDependencies = ['angular/angular.min.js','angular-ui-router/release/angular-ui-router.min.js','jquery/dist/jquery.min.js'];
 
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+        mangel:{
+        	except:['angular']
+        },
+        files:{
+        	'src/main/webapp/js/build/<%= pkg.name %>.min.js' : ['src/main/webapp/js']
+        }
       },
       build: {
         src: 'src/<%= pkg.name %>.js',
